@@ -8,4 +8,26 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="accel_view">
+        <item name="android:layout_width">@dimen/accel_value_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:paddingRight">@dimen/default_padding</item>
+        <item name="android:background">@color/lightGray</item>
+    </style>
+
+    <style name="label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+
+    <style name="default_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">@dimen/default_padding</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
 </resources>

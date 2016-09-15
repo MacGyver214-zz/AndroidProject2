@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">AccelerometerCS450</string>
+    <string name="app_name">Accelerometer and GPS Diagnostics</string>
     <string name="z">Z</string>
+    <string name="y">Y</string>
+    <string name="x">X</string>
+    <string name="accelerometer_values">Accelerometer Values</string>
+    <string name="geographical_values">Geographical Values</string>
+    <string name="latitude">λ</string>
+    <string name="longitude">φ</string>
 </resources>

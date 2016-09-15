@@ -11,9 +11,7 @@ import java.util.Observable;
 /**
  * Created by ehar on 9/6/2016.
  */
-public class AccelerometerHandler
-        extends Observable
-        implements SensorEventListener {
+public class AccelerometerHandler extends Observable implements SensorEventListener {
 
     private SensorManager sensorManager = null;
     private Sensor accel = null;
@@ -23,13 +21,9 @@ public class AccelerometerHandler
 
     public AccelerometerHandler(MainActivity act) {
         this.act = act;
-        this.sensorManager = (SensorManager)
-                act.getSystemService(Activity.SENSOR_SERVICE);
+        this.sensorManager = (SensorManager) act.getSystemService(Activity.SENSOR_SERVICE);
         this.accel = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-        sensorManager.registerListener(
-                this,
-                this.accel,
-                SensorManager.SENSOR_DELAY_UI);
+        sensorManager.registerListener(this, this.accel, SensorManager.SENSOR_DELAY_UI);
     }
 
     @Override
